@@ -1,0 +1,78 @@
+/* The screen widths Bootstrap v3.x uses are as follows:
+
+Extra small devices Phones (<768px) / .col-xs-
+Small devices Tablets (≥768px) / .col-sm-
+Medium devices Desktops (≥992px) / .col-md-
+Large devices Desktops (≥1200px) / .col-lg-
+So, these are good to use and work well in practice. */
+
+@media screen and (min-width: 1200px){
+    header {
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        padding-bottom: 50px;
+    }
+
+    .header__inner {
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 320px) {
+    /* .creator__inner {
+        display: flex;
+    }
+    
+    .creator__inner img {
+        width: 30%;
+    }
+    
+    .creator__desc {
+        padding: 15px;
+    }
+    
+    .creator__title {
+        font-size: 35px;
+    }
+    
+    .creator__subtitle {
+        font-size: 21px;
+        margin-top: 10px;
+    }
+    
+    .creator__contact {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .creator__insta {
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .creator__insta img {
+        width: 40px;
+        margin-right: 15px;
+    }
+    
+    .creator__insta:hover {
+        text-decoration: underline;
+    } */
+}
